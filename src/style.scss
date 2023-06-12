@@ -1,9 +1,16 @@
 $green: #12e177;
 $orange: #ffc72a;
 $blue: #4c43d4;
+// font-family: 'Chakra Petch', sans-serif;
+// font-family: 'Exo 2', sans-serif;
+// font-family: 'Kablammo', cursive;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Orbitron', sans-serif;
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Roboto Slab', serif;
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Orbitron', sans-serif;
   background-color: $blue;
   color: #fff;
   padding: 0;
@@ -57,7 +64,7 @@ button {
       }
 
       .btn-move {
-    	  color: #fff;
+        color: #fff;
         &.active {
           font-weight: bold;
           color: $green;
@@ -68,12 +75,13 @@ button {
 }
 
 .status-message {
-	margin-bottom: 30px;
-	font-size: 1.2rem;
-	font-weight: lighter;
-	span {
-	  font-weight: normal;
-	}
+  font-family: 'Orbitron', sans-serif;
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  span {
+    font-weight: normal;
+  }
 }
 
 .btn-reset {
@@ -100,6 +108,9 @@ button {
       border-bottom: none;
     }
     .square {
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 900;
+      color: rgb(246, 255, 0);
       width: 80px;
       height: 80px;
       border-right: 2px solid #fff;
@@ -111,19 +122,19 @@ button {
         border-right: none;
       }
       &.winning {
-	    animation: scaleText 1.4s infinite;
-	    @keyframes scaleText {
-	      0% {
-	        transform: 2.5rem;
-	      }
-	      50% {
-	        font-size: 3.5rem;
-	      }
-	      100% {
-	        font-size: 2.5rem;
-	      }
-	    }
-	  }
+        animation: scaleText 1.4s infinite;
+        @keyframes scaleText {
+          0% {
+            transform: 2.5rem;
+          }
+          50% {
+            font-size: 3.5rem;
+          }
+          100% {
+            font-size: 2.5rem;
+          }
+        }
+      }
     }
   }
 }
